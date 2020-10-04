@@ -1,0 +1,48 @@
+.parent {
+    border : 6px solid red;
+    display: flex;
+}
+
+.container {
+    display   : flex;
+    text-align: right !important;
+
+}
+
+.container div {
+    text-align: right !important;
+}
+
+.ch {
+    border    : 2px solid black;
+    width     : 200px;
+    height    : 300px;
+    text-align: right !important;
+}
+
+.ch1 {
+    background-color: violet;
+}
+
+.ch2 {
+    background-color: rgb(15, 120, 151);
+}
+
+.ch3 {
+    background-color: yellow;
+}
+
+.ch4 {
+    background-color: blue;
+}
+
+.printCol {
+    background-color: #652;
+    width           : 200px;
+    height          : 60px;
+    color           : thistle;
+    border-radius   : 6px;
+    text-align      : center;
+    line-height     : 350%;
+    cursor          : pointer;
+}
